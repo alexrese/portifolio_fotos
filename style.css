@@ -1,0 +1,11 @@
+.navbar .container-fluid img{
+    width: 64px;
+}
+
+.card{
+    border-radius: 0px;
+}
+
+nav{
+    box-shadow: 0px 20px 5px 0px rgba(91,95,80,1);
+}
