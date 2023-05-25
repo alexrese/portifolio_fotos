@@ -1,3 +1,22 @@
+/* Scrool */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #0d6efd #0d6efd;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #19142a;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #0d6efd;
+    border: 3px solid #0d6efd;
+}
+/* Scrool */
 .navbar .container-fluid img {
     width: 64px;
 }
@@ -25,11 +44,22 @@ body {
 }
 
 .card {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,80,94,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(75, 80, 94, 1) 100%);
 }
 
-.card-body, .text-body-secondary, .card-header {
+.card-body,
+.text-body-secondary,
+.card-header {
     color: white !important;
 }
 
+footer img {
+    opacity: 0.7;
+    transition: all 0.3s ease-in;
+}
+
+footer img:hover {
+    opacity: 1;
+    transition: 0.5 ease-out;
+}
