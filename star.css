@@ -1,0 +1,17 @@
+#rating { font-size: 0; }
+#rating span { font-size: 40px; }
+#rating span::before { content: "☆"; }
+#rating span.active::before {content: "★"; }
+#rating span:hover { cursor: pointer; }
+
+#rating2 { font-size: 0; }
+#rating2 span { font-size: 40px; }
+#rating2 span::before { content: "☆"; }
+#rating2 span.active::before {content: "★"; }
+#rating2 span:hover { cursor: pointer; }
+
+#rating3 { font-size: 0; }
+#rating3 span { font-size: 40px; }
+#rating3 span::before { content: "☆"; }
+#rating3 span.active::before {content: "★"; }
+#rating3 span:hover { cursor: pointer; }
